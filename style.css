@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+
+}
+.my-name{
+    font-size: 45px;
+}
+.info{
+    font-size: 22px;
+}
+
+.navbar-nav li a{
+    font-size: 21px;
+    margin: 0px 10px;
+    color: black ;
+    opacity: 0.8;
+ 
+}
+.navbar-brand{
+    font-size: 23px;
+}
+
+.social-icons a i{
+    color: rgb(177, 177, 177);
+    font-size: 25px;
+    margin: 5px 7px;
+}
+.social-icons a i:hover{
+    color: rgb(255, 255, 255);
+    
+}
+
+.headings{
+    font-size: 37px;
+    font-family: 'Satisfy', cursive;
+    color: #6A1B9A ;
+    font-weight: 600;
+    text-transform: lowercase;
+
+}
+
+#skills span{
+    font-size: 20px;
+    font-size: 600;
+  
+
+}
+
+#education span , #work span{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 23px;
+    
+}
+#education  i , #work i{
+    font-size: 25px;
+    color: red;
+}
+#contact .form-row {
+    margin: 7px 0px;
+}
+#contact .form-row label{
+    font-size: 19px;
+}
+#contact .form-row label::after{
+    content: "*";
+    color: red;
+    font-size: 18px;
+}
+
+.info-btn{
+    margin: 15px 8px;
+}
+.icons{
+    margin: 0px 10px;
+}
+.details{
+    margin: 0px 10px;
+}
+.progress{
+    margin: 10px 0px;
+}
+
+.edu-details{
+    margin: 5px 10px ;
+    border-left: 2px solid black;
+}
+
+
+@media screen and (max-width:576px){
+
+
+    .my-name{
+        font-size: 40px;
+    }
+    .info{
+        font-size: 24px;
+    }
+    .navbar-nav li a{
+        font-size: 18px;
+        margin: 0px 10px;
+        color: black ;
+        opacity: 0.8;
+     
+    }
+    .navbar-brand{
+        font-size: 20px;
+    }
+    
+    .social-icons a i{
+        color: rgb(177, 177, 177);
+        font-size: 20px;
+        margin: 5px 7px;
+    }
+    .social-icons a i:hover{
+        color: rgb(255, 255, 255);
+        
+    }
+    
+    .headings{
+        font-size: 27;
+        font-family: 'Satisfy', cursive;
+        color: #6A1B9A ;
+        font-weight: 600;
+        text-transform: lowercase;
+    
+    }
+    
+    #skills span{
+        font-size: 18px;
+        font-size: 600;
+      
+    
+    }
+    
+    #education span , #work span{
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 19px;
+        
+    }
+    #education  i , #work i{
+        font-size: 19px;
+        color: red;
+    }
+    #contact .form-row {
+        margin: 7px 0px;
+    }
+    #contact .form-row label{
+        font-size: 17px;
+    }
+    #contact .form-row label::after{
+        content: "*";
+        color: red;
+        font-size: 17px;
+    }
+
+    
+}
